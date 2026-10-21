@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Markdown Wiki</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <!-- 
+    vue.css Vue (Default Clean Green) 
+    dark.css Pure Dark Mode
+    bubbly.css Bubbly & Modern Light
+    dolphin.css Dolphin (High-contrast Slate Blue)
+    core.min.css Simple theme layout
+  -->
+
+
+  <!-- Theme  -->
+  <link rel="stylesheet" 
+    href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/core.min.css">
+</head>
+<body>
+  <div id="app">Loading...</div>
+  <script>
+    window.$docsify = {
+      name: 'My Webpage',
+      repo: '', // Optional: Put your GitHub repo URL here to show a corner badge
+      loadSidebar: true,
+      autoHeader: true,
+      subMaxLevel: 2
+    }
+  </script>
+  <script>
+    window.$docsify = {
+      loadSidebar: true,
+    };
+  </script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify@5"></script>
+  <!-- Plugins -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
+  <!-- Docsify v4 engine -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
