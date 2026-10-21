@@ -2,13 +2,11 @@
 
 - Websites
 
-  - [Quick start](quickstart.md)
+  - [Quick start](README.md)
 
 - Virtual Tourist
 
   - [Hiro Days in Tokyo](yt_hirodaysintokyo.md)
 
   - [Solo Travel Japan](yt_solotravel.md)
-
-* [Awesome docsify](awesome.md)
-* [Changelog](changelog.md)
+  
